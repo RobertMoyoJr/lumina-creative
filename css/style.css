@@ -118,9 +118,38 @@ img {
   border-radius: 11px;
 }
 
+.gallery-item:hover {
+  opacity: 0.85;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid #aaa;
+  padding: 3.2rem 2.4rem;
+  margin-top: 3.2rem;
+}
+
+.footer .footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer img {
+  width: 12rem;
+  height: 3.5rem;
+  align-self: center;
+}
+
+.footer h4 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .header .header-flex {
+  .header .header-flex,
+  .footer .footer-flex {
     flex-direction: column;
     gap: 2.4rem;
   }
@@ -135,5 +164,10 @@ img {
 
   .gallery-item {
     width: calc(calc(100% / 2) - 20px);
+  }
+
+  .footer .footer-flex {
+    align-items: center;
+    text-align: center;
   }
 }
