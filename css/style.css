@@ -56,7 +56,7 @@ img {
 }
 
 .container-sm {
-  max-width: var(--container--narrow);
+  max-width: var(--container-narrow);
 }
 
 /* Header */
@@ -89,7 +89,7 @@ img {
 
 /* Hero */
 .hero {
-  height: 500px;
+  height: 50rem;
   display: flex;
   justify-content: center;
   align-items: center;
