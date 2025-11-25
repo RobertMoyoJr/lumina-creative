@@ -44,6 +44,12 @@ img {
   background-color: var(--primary-color);
 }
 
+.section-heading {
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 /* Container */
 .container {
   max-width: var(--container-normal);
@@ -150,10 +156,42 @@ img {
   margin: 0.32rem;
 }
 
+/* Services */
+.services {
+  background: #333;
+  color: #fff;
+  padding: 4.8rem 0 6.4rem;
+}
+
+.services .services-flex {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.services h4 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.team {
+  padding: 4.8rem 0 6.4rem;
+}
+
+.team .team-flex {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.team img {
+  border-radius: 0.9rem;
+}
+
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .header .header-flex,
-  .footer .footer-flex {
+  .footer .footer-flex,
+  .services .services-flex,
+  .team .team-flex {
     flex-direction: column;
     gap: 2.4rem;
   }
