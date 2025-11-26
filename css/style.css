@@ -14,6 +14,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -178,12 +179,6 @@ img {
   align-items: start;
 }
 
-.footer img {
-  width: 12rem;
-  height: 3.5rem;
-  align-self: center;
-}
-
 .footer h4 {
   font-size: 1.6rem;
   margin-bottom: 0.8rem;
@@ -191,6 +186,9 @@ img {
 
 .footer a {
   margin: 0.32rem;
+  width: 12rem;
+  height: 3.5rem;
+  align-self: center;
 }
 
 /* Services */
