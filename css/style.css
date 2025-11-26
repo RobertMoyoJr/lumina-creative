@@ -260,7 +260,7 @@ img {
 }
 
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header .header-flex,
   .footer .footer-flex,
   .services .services-flex,
